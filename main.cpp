@@ -8,7 +8,7 @@ float interval = 0.1f;
 
 std::random_device rd;
 std::mt19937 gen(rd());
-std::uniform_int_distribution selectPos(100, 400);
+std::uniform_int_distribution selectPos(100, 300);
 
 sf::RectangleShape bird({50, 50});
 sf::RectangleShape pipe({100, 1000});
